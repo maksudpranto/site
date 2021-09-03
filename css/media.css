@@ -1,0 +1,129 @@
+@media(max-width:575px){
+    .navbar-collapse {
+        background: rgba(0, 0, 0, 0.36);
+    }
+    .navbar-expand-lg .navbar-nav .nav-link
+    {
+        color: white;
+        text-align: center;
+    }
+    .navbar-expand-lg .navbar-nav .nav-link:hover
+    {
+        color: #FA7C05;
+    }
+    .about-header h2
+    {
+        margin-top: 20px;
+    }
+    .about-left
+    {
+        margin-top: 0px;
+    }
+    .btn1
+    {
+        margin-top: 60px;
+        text-align: center;
+    }
+    .btn1 a:hover
+    {
+        background:#FA7C05 ;
+    }
+    .banner-text {
+        padding: 58px;
+    }
+    .banner-text h1{
+        font-size: 30px;
+        padding-top: 305px;
+    }
+    .icons i {
+        margin: 30px 15px;
+    }
+    .right {
+        margin: 150px -148px;
+    }
+    #service {
+        padding: 0px 0px;
+    }
+    #about {
+        padding: 20px 0px 260px 0px;
+    }
+    #testimonial {
+        padding: 10px 0px;
+    }
+    #return-to-top
+    {
+        bottom: 20px;
+        right: 20px;
+        background: #0F4C5C;
+        width: 30px;
+        height: 30px;
+        display: inline-block;
+        border-radius: 18px;
+    }
+    #return-to-top i {
+        top: 4px;
+        left: 7px;
+
+    }
+    .testimonial{
+        padding: 0;
+        border: none;
+    }
+    .testimonial:before,
+    .testimonial:after{
+        border: none;
+    }
+    .testimonial .pic{
+        position: relative;
+        top: 0;
+        left: 0;
+    }
+    .testimonial .description{
+        margin-top: 15px;
+    }
+    .testimonial .description:before{
+        content: "";
+    }
+    .portfolioFilter a {
+        margin-right: 13px;
+        margin-top: 11px;
+    }
+    .msg {
+
+        margin-top: 13px;
+        margin-left: 1px;
+    }
+
+
+
+}
+
+
+@media(min-width:576px) and (max-width:767px){
+    .testimonial{
+        padding: 0;
+        border: none;
+    }
+    .testimonial:before,
+    .testimonial:after{
+        border: none;
+    }
+    .testimonial .pic{
+        position: relative;
+        top: 0;
+        left: 0;
+    }
+    .testimonial .description{
+        margin-top: 15px;
+    }
+    .testimonial .description:before{
+        content: "";
+    }
+
+
+}
+@media(min-width:768px) and (max-width:991px){
+    .testimonial{
+        padding: 80px 0 80px 265px;
+    }
+}
